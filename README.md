@@ -4,9 +4,7 @@ zenn に投稿する記事を管理します。
 
 ### Zenn CLI
 
-- [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
-
----
+#### [📘 使い方](https://zenn.dev/zenn/articles/zenn-cli-guide)
 
 - 新しい記事を作成する
 
@@ -26,7 +24,7 @@ $ npx zenn new:book
 $ npx zenn preview
 ```
 
-### Markdown Tips
+### マークダウン記法/特筆
 
 - 画像を埋め込む
 
