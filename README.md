@@ -1,6 +1,6 @@
 # Zenn-Articles
 
-zenn に投稿する記事を管理します。
+[zenn に投稿する記事](https://zenn.dev/shin_carpediem)を管理します。
 
 ### Zenn CLI
 
