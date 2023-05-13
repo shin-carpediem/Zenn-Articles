@@ -3,7 +3,7 @@ title: "動的型付け言語こそ型を書こう"
 emoji: "🍴"
 type: "tech"
 topics: ["動的型付け言語", "静的型付け言語"]
-published: false
+published: true
 ---
 
 ## なぜ型を書くべきか
