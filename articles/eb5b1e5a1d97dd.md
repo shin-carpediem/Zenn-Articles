@@ -22,7 +22,7 @@ for number in number_list:
 このコードは、`number` が 3 の時に、`str` 型を `int` 型に変換する`int()`関数の引数に str 型ではない型が渡されるので、エラーとなります。アプリケーションの場合はクラッシュに繋がります。
 
 Java, Swift, TypeScript のような静的型付け言語は、プログラムを実行する前に型の不一致による上述したエラーを検出できます。
-一方 PHP, Python, Javascript のような動的型付け言語は、プログラムを実行する時に変数の型が決まります。
+一方 PHP, Python, JavaScript のような動的型付け言語は、プログラムを実行する時に変数の型が決まります。
 なので、動的型付け言語はプログラムを実行する時まで、上述したエラーに言語機能からは気がつけません。
 
 つまり、動的型付け言語の方が、書き方の自由度は高い分、アプリケーションにバグを産むリスクが高いと言えます。
@@ -168,6 +168,9 @@ def append_number_to_list_in_db(number: str) -> None:
 動的型付け言語には型がないため、デフォルトでは型チェックをする機能はありません。
 しかし、以下のような型チェックライブラリを用いれば、動的型付け言語であっても、プログラム実行時よりも前に、型の不一致に気付けます。
 
+- Ruby
+  - [Sorbet](https://sorbet.org/)
+  - [Steep](https://github.com/soutaro/steep)
 - Python
   - [mypy](https://github.com/python/mypy)
 
