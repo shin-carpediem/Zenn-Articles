@@ -169,11 +169,8 @@ def append_number_to_list_in_db(number: str) -> None:
 動的型付け言語には型がないため、デフォルトでは型チェックをする機能はありません。
 しかし、以下のような型チェックライブラリを用いれば、動的型付け言語であっても、プログラム実行時よりも前に、型の不一致に気付けます。
 
-- Ruby
-  - [Sorbet](https://sorbet.org/)
-  - [Steep](https://github.com/soutaro/steep)
-- Python
-  - [mypy](https://github.com/python/mypy)
+- Ruby: [Sorbet](https://sorbet.org/), [Steep](https://github.com/soutaro/steep)
+- Python: [mypy](https://github.com/python/mypy)
 
 ## 関数を呼び出す際に引数名を省略しない
 
